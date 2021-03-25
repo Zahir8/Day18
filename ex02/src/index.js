@@ -28,7 +28,7 @@ let fifteenArray = [];
 
 for(let e of iterator){
     fifteenArray.push(e);
-    fifteenArray.push(iterator.next(e).value);
+    fifteenArray.push(iterator.next().value);
 
 }
 console.log(fifteenArray);
